@@ -1,0 +1,37 @@
+{
+  "name": "nexfix-api",
+  "version": "1.0.0",
+  "description": "Esta es el API REST de la aplicación de servicios para el hogar",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rjose31/nexfix-api.git"
+  },
+  "keywords": [],
+  "author": "Reynaldo Cruz",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/rjose31/nexfix-api/issues"
+  },
+  "homepage": "https://github.com/rjose31/nexfix-api#readme",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "express-validator": "^7.3.2",
+    "jsonwebtoken": "^9.0.3",
+    "mysql2": "^3.22.5",
+    "sequelize": "^6.37.8"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14",
+    "sequelize-cli": "^6.6.5"
+  }
+}
